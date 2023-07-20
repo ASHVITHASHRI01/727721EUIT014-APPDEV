@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6fa87a;
+  } 
+
+  .header .logo {
+    font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      font-size: 30px;
+      color: #000;
+      text-decoration: none; 
+      margin-left: -285px ;
+      padding: 10px;
+      float: left;
+  }
+
+  .flower-image h3{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 28px;
+        font-weight: bold;
+        color: #0f0909;
+        /* font-weight: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif bold; */
+        /* text-transform: uppercase; */
+        /* margin: 1rem 4rem; */
+        text-align: left;
+  }
+  
+  .flower-image h5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+
+  .flower-image h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  }
+  
+  .flower-image .outdoor{
+    text-align: center;
+  }
+  
+  .flower-image .outdoor h2{
+    text-align: center;
+    font-weight: bold;
+  }

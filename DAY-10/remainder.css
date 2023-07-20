@@ -1,0 +1,83 @@
+/* Styling for the header */
+/* .header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    margin-right: auto;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-items a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Styling for the container */
+  .container-mt-5 {
+    margin-top: -59rem;
+    text-align: center;
+    height: 10px;
+  } 
+  
+  h1 {
+    font-size: 2px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="time"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+  }
+  
+  .days-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .days-wrapper button {
+    padding: 8px;
+    margin-right: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .days-wrapper button.selected {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  span {
+    margin-left: 5px;
+  }
+  
