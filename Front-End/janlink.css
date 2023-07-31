@@ -1,0 +1,25 @@
+.jan-image h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 50px;
+      font-weight: bold;
+      color: #0f0909;
+      /* font-weight: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif bold; */
+      /* text-transform: uppercase; */
+      /* margin: 1rem 4rem; */
+      text-align: center;
+}
+
+.jan-image h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.jan-image h3{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0f0909;
+    /* font-weight: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif bold; */
+    /* text-transform: uppercase; */
+    /* margin: 1rem 4rem; */
+    text-align: left;
+}

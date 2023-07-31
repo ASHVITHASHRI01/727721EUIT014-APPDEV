@@ -1,0 +1,36 @@
+.plant-image h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      color: #0f0909;
+      /* font-weight: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif bold; */
+      /* text-transform: uppercase; */
+      /* margin: 1rem 4rem; */
+      text-align: left;
+}
+
+.plant-image h2{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.plant-image h3{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #0f0909;
+    /* font-weight: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif bold; */
+    /* text-transform: uppercase; */
+    /* margin: 1rem 4rem; */
+    text-align: left;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  font-size: 39px;
+  color: #000;
+  text-decoration: none; 
+  margin-left: -240px ;
+  padding: 10px;
+  float: left;
+}

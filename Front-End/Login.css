@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+} */
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+
+}
+.background{
+    background-image: url("bg5.jpg");
+    background-position: center;
+    background-size:cover ;
+    height: 100vh;
+    width: 100%;
+}
+
+.lheader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 13%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+::placeholder{
+    color:#100f0f;
+    
+}
+.hello-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 480px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom,#ffffff  0%, #9dd19c 50%);
+    background-position: center;
+    background-size:cover ;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0.7;
+    padding-left: 20%;
+}
+.item{
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 100%;
+    color: #0d0c0c;
+    background: transparent;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.item .logo{
+    color: #090909;
+    font-size: 30px;
+
+}
+.text-item h2{
+    font-size: 40px;
+    line-height: 1;
+   
+}
+.text-item p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.l-container .login-section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:50%;
+    height: 100%;
+    color: #100f0f;
+    backdrop-filter: blur(10px);
+}
+
+.login-section .form-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+    height: 100%;
+    padding-right:180%;
+    
+
+}
+.login-section .form-box.register{
+    transform: translateX(430px);
+    transition: transform .6s ease;
+    transition-delay: 0s;
+}
+.login-section.active .form-box.register{
+    transform: translateX(0px);
+    transition-delay: .7s;
+}
+
+.login-section .form-box.login{
+    transform: translateX(0px);
+    transition: transform .6s ease;
+    transition-delay: 0.7s;
+}
+.login-section.active .form-box.login{
+    transform: translateX(430px);
+    transition-delay: 0s;
+}
+
+
+.login-section .form-box h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.form-box .input-box{
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid#080707;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 28px;
+
+
+}
+
+.input-box .icon{
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+.input-box input:focus~ label,
+.input-box input:valid~ label{
+    top: -5px;
+}
+.remember-password{
+    font-size: 14px;
+    font-weight: 500;
+    /* margin: -15px 0 15px ; */
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.remember-password label input{
+    accent-color: #070606;
+    margin-right: 3px;
+
+}
+
+.harini{
+    font-size: 14px;
+
+}
+.remember-password a{
+    color: #020202;
+    text-decoration: none;
+}
+.remember-password a:hover{
+    text-decoration: underline;
+}
+.l-btn{
+    background: #070707;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #1da326;
+    font-size: 16px;
+    color: #080808;
+    box-shadow: rgba(0,0,0,0.4);
+
+}
+.google{
+    margin-top: 20px;
+    background: #fff;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #ffffff;
+    font-size: 16px;
+    color: #000000;
+    box-shadow: rgba(0,0,0,0.4);
+
+}
+.googleimg{
+    height:15px;
+    width:20px;
+    margin-right: 30px;
+}
+.create-account{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 25px;
+}
+.create-account p a{
+    color: #fff;
+    font-weight: 600px;
+    text-decoration: none;
+}
+.create-account p a:hover{
+    text-decoration: underline;
+}
+.heading{
+    font-family:monospace;
+    font-size: 100px;
+}
+.Logor{
+    height: 190px;
+    width: 190px;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: #000;
+
+}
+.background{
+    background-image: url("https://img.freepik.com/free-photo/seats-marked-with-x-social-distancing-during-covid-19_53876-143055.jpg?w=1060&t=st=1688927973~exp=1688928573~hmac=4a3b38fa906deab1d41e2bb48508e9ba24d43c805730054a0d55d4eaa75a9ba2");
+    background-position: center;
+    background-size:cover ;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 13%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+::placeholder{
+    color:#100f0f;
+    
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 4%;
+    height: 550px;
+    margin-top: 20px;
+    background: linear-gradient(to bottom,#e5e2ec  0%, #F8CEEC 50%);
+    background-position: center;
+    background-size:cover ;
+    border-radius: 20px;
+    overflow: hidden;
+    opacity: 0.7;
+
+
+}
+.item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 100%;
+    color: #0d0c0c;
+    background: transparent;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.item .logo{
+    color: #090909;
+    font-size: 30px;
+
+}
+.text-item h2{
+    font-size: 40px;
+    line-height: 1;
+   
+}
+.text-item p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.container .login-section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:50%;
+    height: 100%;
+    color: #100f0f;
+    backdrop-filter: blur(10px);
+}
+
+.login-section .form-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150%;
+    height: 100%;
+    padding-right:180%;
+    
+
+}
+.login-section .form-box.register{
+    transform: translateX(430px);
+    transition: transform .6s ease;
+    transition-delay: 0s;
+}
+.login-section.active .form-box.register{
+    transform: translateX(0px);
+    transition-delay: .7s;
+}
+
+.login-section .form-box.login{
+    transform: translateX(0px);
+    transition: transform .6s ease;
+    transition-delay: 0.7s;
+}
+.login-section.active .form-box.login{
+    transform: translateX(430px);
+    transition-delay: 0s;
+}
+
+
+.login-section .form-box h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.form-box .input-box{
+    width: 340px;
+    height: 50px;
+    border-bottom: 2px solid#080707;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 28px;
+
+
+}
+
+.input-box .icon{
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+}
+.input-box input:focus~ label,
+.input-box input:valid~ label{
+    top: -5px;
+}
+.remember-password{
+    font-size: 14px;
+    font-weight: 500;
+    margin: -15px 0 15px ;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-password label input{
+    accent-color: #070606;
+    margin-right: 3px;
+
+}
+.remember-password a{
+    color: #020202;
+    text-decoration: none;
+}
+.remember-password a:hover{
+    text-decoration: underline;
+}
+.btn{
+    background: #070707;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #f72d7a;
+    font-size: 16px;
+    color: #080808;
+    box-shadow: rgba(0,0,0,0.4);
+
+}
+.google{
+    margin-top: 20px;
+    background: #fff;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #ffffff;
+    font-size: 16px;
+    color: #000000;
+    box-shadow: rgba(0,0,0,0.4);
+
+}
+.googleimg{
+    height:15px;
+    width:20px;
+    margin-right: 30px;
+}
+.create-account{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 25px;
+}
+.create-account p a{
+    color: #fff;
+    font-weight: 600px;
+    text-decoration: none;
+}
+.create-account p a:hover{
+    text-decoration: underline;
+}
+.heading{
+    font-family:monospace;
+    font-size: 100px;
+}
+.Logor{
+    height: 190px;
+    width: 190px;
+} */
